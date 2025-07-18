@@ -1,0 +1,3 @@
+@Library('pic_avr_solutions_pipeline_gcc') _
+
+invokePipeline()
