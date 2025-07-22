@@ -1,0 +1,30 @@
+sources: ../submodules/ethernet-encx24j600/encx24j600_spi.h.ftl
+outputFile: mcc_generated_files/ethernet/encx24j600_spi.h
+
+sources: ../submodules/ethernet-encx24j600/src/encx24j600_spi.c.ftl
+outputFile: mcc_generated_files/ethernet/src/encx24j600_spi.c
+
+sources: ../submodules/ethernet-encx24j600/encx24j600_types.h.ftl
+outputFile: mcc_generated_files/ethernet/encx24j600_types.h
+
+sources: ../submodules/ethernet-encx24j600/src/encx24j600_driver.c.ftl
+outputFile: mcc_generated_files/ethernet/src/encx24j600_driver.c
+
+removeExtensions: ftl
+
+data:{
+	ChipSelect:"ETH_CS"
+    Ethernet:"false"
+    DBkey:"false"
+    ARCH:"PIC"
+    spiHeaderName:"spi_interface.h"
+    spiHeaderPath:"spi/"
+    spiOpen:"SPI1_Open"
+    spiClose:"SPI1_Close"
+    spiByteExchange:"SPI1_ByteExchange"
+    spiConfig:"MAC"
+    MACaddress:"0x02, 0x00, 0x00, 0x00, 0x00, 0x01"
+    delayHeaderName:"delay.h"
+    delayHeaderPath:"timer/"
+	disclaimer: "/*\n© [2023] Microchip Technology Inc. and its subsidiaries.\n\n\tSubject to your compliance with these terms, you may use Microchip\n\tsoftware and any derivatives exclusively with Microchip products.\n\tYou are responsible for complying with 3rd party license terms\n\tapplicable to your use of 3rd party software (including open source\n\tsoftware) that may accompany Microchip software. SOFTWARE IS \"AS IS\".\n\tNO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS \n\tSOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, \n\tMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT \n\tWILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, \n\tINCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY \n\tKIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF \n\tMICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE \n\tFORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S \n\tTOTAL LIABILITY ON ALL CLAIMS RELATED TO THE SOFTWARE WILL NOT \n\tEXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR \n\tTHIS SOFTWARE.\n*/"
+}
