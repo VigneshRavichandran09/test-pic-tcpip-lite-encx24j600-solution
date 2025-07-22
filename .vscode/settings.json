@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.c*": "c",
+        "*.h*": "c",
+        "udp_demo.h": "c",
+        "network.h": "c",
+        "system.h": "c",
+        "tcpip_types.h": "c"
+    }
+}
