@@ -6,8 +6,8 @@
         "name": "com.microchip.mcu8.mplabx.project.pic-tcpip-lite-encx24j600-solution",
         "version": "1.0.0",
         "displayName": "ENCx24J600 TCPIP Solutions with PIC",
-        "projectName": "test-pic-tcpip-lite-encx24j600-solution",
-        "shortDescription": "This is DEVELOP branch",
+        "projectName": "pic-tcpip-lite-encx24j600-solution",
+        "shortDescription": "This MPLAB® X MCC example shows implementation of TCP/IP Lite Applications using Microchip ENCx24J600 Ethernet Driver on a PIC Device",
         "ide": {
             "name": "MPLAB X",
             "semverRange": "^6.10.0"
